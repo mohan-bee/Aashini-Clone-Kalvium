@@ -7,7 +7,13 @@
     --font-raleway: Railway, sans-serif;
     --font-roboto: Robot, arial, tahoma;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Css By Monish */
 ul{
     display: flex;
     justify-content: space-evenly;
@@ -59,14 +65,9 @@ li{
 }
 
 
-
-
-
-
 .fasion3>p{
     
     font-family: var(--font-roboto);
-    
     font-weight: 400;
     line-height: 22px;
     font-size: 13px;
@@ -98,7 +99,6 @@ li{
 }
 .search-bar{
     margin-left: 476px;
-    
     display: flex;
     height: 27px;
     border: 1px solid #717171;
@@ -108,23 +108,19 @@ li{
     border-radius: 2px;
     font-family: var(--font-roboto);
     left: 22px;
-
-    
-
 }
+
 .search-bar > input{
     border: none;
     margin-left: 5px;
 }
+
 .search-bar>i{
     font-size: 13px;
-    
     margin: auto 5px;
     position: relative;
     left: 25px;
     bottom: 3px;
-    
-
 }
 
 .icons i{
@@ -132,14 +128,54 @@ li{
     left: 150px;
     margin: 0 10px;
     bottom: 13px;
-    font-size: 14px;
-    
+    font-size: 14px;    
 }
 
 .banner1>img , .banner2>img{
     width: 100%;
 }
 
+/* Css By Mohan */
+.shop-by-style{
+    position: relative;
+}
 
- 
+.banner6{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.banner6 > .banner6-part, .banner7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner6 > .banner6-part  img, .banner7 img:nth-child(2){
+    width: 32.5%;
+    margin: 5px;
+}
+.banner7 > img{
+    width: 65.5%;
+    margin: 5px;
+}   
+.banner8, .banner9, .banner10{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner8 img{
+    width: 19.3%;
+    height: auto;
+    margin: 5px;
+}
+
+.banner9 img:nth-child(2), .banner10 img:nth-child(2) {
+    width: 49.5%;
+    margin: 5px;
+}
+.banner9 img:nth-child(odd), .banner10 img:nth-child(odd) {
+    width: 24%;
+    margin: 5px;
+}
+
 
