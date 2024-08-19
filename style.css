@@ -4,24 +4,29 @@
     --footer: #525252;
     --color-black: #000000;
     --color-white: #ffffff;
-    --font-railway: Railway, sans-serif;
+    --font-raleway: Railway, sans-serif;
     --font-roboto: Robot, arial, tahoma;
 }
 
-ul,li{
+ul{
     display: flex;
     justify-content: space-evenly;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 22px;
-    font-style: normal;
-    font-family: sans-serif ;
+
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 8px;
+    
     
 }
 
 li{
     list-style: none;
     margin: 0 0 5px 5px ;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    font-style: normal;
+    font-family: var(--font-raleway) ;
 }
 
 .fasion1>p{
@@ -40,6 +45,11 @@ li{
 
 
 }
+.fasion2{
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+}
 
 
 .fasion3{
@@ -48,16 +58,9 @@ li{
     width: 100%;
 }
 
-.fasion3>input{
-    margin-left: 476px;
-    color: rgb(142, 142, 142);
-    line-height: 22px;
-    position: relative;
-    bottom: 10px;
-    width: 14%;
-    font-size: 13px;
-    font-style: normal;
-}
+
+
+
 
 
 .fasion3>p{
@@ -82,9 +85,9 @@ li{
 }
 
 .fasion3>img{
-    display: flex;
-    align-items: center;
-    width: 25%;
+    position: relative;
+    left: 25%;
+    width: 357px;
 }
 
 
@@ -93,5 +96,50 @@ li{
     width: 1px;
     font-size: small;
 }
+.search-bar{
+    margin-left: 476px;
+    
+    display: flex;
+    height: 27px;
+    border: 1px solid #717171;
+    position: relative;
+    bottom: 10px;
+    width: 218px;
+    border-radius: 2px;
+    font-family: var(--font-roboto);
+    left: 22px;
+
+    
+
+}
+.search-bar > input{
+    border: none;
+    margin-left: 5px;
+}
+.search-bar>i{
+    font-size: 13px;
+    
+    margin: auto 5px;
+    position: relative;
+    left: 25px;
+    bottom: 3px;
+    
+
+}
+
+.icons i{
+    position: relative;
+    left: 150px;
+    margin: 0 10px;
+    bottom: 13px;
+    font-size: 14px;
+    
+}
+
+.banner1>img , .banner2>img{
+    width: 100%;
+}
+
+
  
 
