@@ -7,3 +7,31 @@
     --font-railway: Railway, sans-serif;
     --font-roboto: Robot, arial, tahoma;
 }
+.banner3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+.banner3>.cta-banner {
+    width: 311.48px;
+    height: 471.58px;
+    font-size: 36px;
+    color: #333;
+    margin: 0;
+    background-color: red;
+}
+.SHOP HERE {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+}
+.banner3 img {
+    width: 10%;
+}
