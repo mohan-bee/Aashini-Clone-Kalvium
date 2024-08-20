@@ -17,12 +17,9 @@
 ul{
     display: flex;
     justify-content: space-evenly;
-
-    width: 80%;
+    width: 68%;
     margin: 0 auto;
-    margin-top: 8px;
-    
-    
+    margin-top: 8px; 
 }
 
 li{
@@ -56,6 +53,7 @@ li{
     position: sticky;
     top: 0;
     background-color: #ffffff;
+    padding-bottom:10px;
 }
 
 
@@ -140,6 +138,61 @@ li{
 .banner1>img , .banner2>img{
     width: 100%;
 }
+/* Creating the Hover Effect */
+.new-in, .designers{
+    background-color: #ffffff;
+    font-family: var(--font-raleway);
+    padding: 30px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: absolute;
+    align-items: center;
+    top: 90%;
+    display: none;
+
+}
+
+ 
+.new-in > .shop-by{
+    position: relative;
+    bottom: 130px;
+}
+.new-in > .shop-by > li > h3, .editors-pics > p{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.new-in > ul{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    cursor: pointer;
+}
+
+.new-in > ul li, .editor-img > div > p{
+    font-family: var(--font-raleway);
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+}
+.editors-pics{
+    text-align: center;
+}
+.editors-pics > .editor-img{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.editor-img img{
+    width: 260px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
 
 /* Css By Mohan */
 .shop-by-style{
