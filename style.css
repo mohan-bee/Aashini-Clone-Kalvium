@@ -154,8 +154,12 @@ li{
 
 }
 .designers{
-    display: block;
+    display:block;
 
+    font-family: var(--font-raleway);
+}
+
+.designers1{
     font-family: var(--font-raleway);
 }
 
@@ -177,10 +181,62 @@ li{
     display: flex;
     flex-direction: column;
     bottom: 333px;
-    right: 10px;
+    left: 125px;
     
     
 }
+
+.designers1>ul li{
+    font-size: 14px;
+    font-weight: 300px;
+}
+
+.designers2>p{
+    position: relative;
+    left: 339px;
+    bottom: 360px;
+    font-size: 14px;
+    font-family: var(--font-raleway);
+    font-weight: 500px;
+}
+
+.designers2>ul{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 200px;
+    bottom: 352px;
+}
+
+.designers3>ul{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 200px;
+    bottom: 307px;
+}
+
+.designers3>p{
+    position: relative;
+    left: 338px;
+    bottom: 315px;
+}
+
+.designers3>ul>img{
+    position: relative;
+    left: 309px;
+    width: 191px;
+    bottom: 380px;
+    
+}
+
+.designers3>ul>p{
+    position: relative;
+    bottom: 369px;
+    left: 350px;
+    
+}
+
 
 
 
