@@ -7,3 +7,20 @@
     --font-railway: Railway, sans-serif;
     --font-roboto: Robot, arial, tahoma;
 }
+
+body {
+    font-family: "Roboto", arial, tahoma;
+    font-weight: normal;
+    font-size: small;
+}
+
+.Link{
+    color: black;
+    font-weight: 900;
+    
+}
+
+.Link:hover{
+    font-weight: 500;
+}
+
