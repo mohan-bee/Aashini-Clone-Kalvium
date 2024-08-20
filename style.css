@@ -41,6 +41,7 @@ li{
     font-weight: 400;
     font-style: normal;
     line-height: 28px;
+    border-radius: 5px;
     
 
 
@@ -72,7 +73,7 @@ li{
     font-size: 13px;
     font-style: normal;
     position: relative;
-    bottom: 20px;
+    bottom: 22px;
     margin-left: 10px;
 
 }
@@ -80,7 +81,7 @@ li{
 .fasion3>select{
     margin-right: 100px;
     position: relative;
-    bottom: 20px;
+    bottom: 22px;
     
 }
 
@@ -115,13 +116,18 @@ li{
 .search-bar > input{
     border: none;
     margin-left: 5px;
+    outline: none;
+    
+    padding: 10px;
+    transition: box-shadow 0.3s ease;
+    
 }
 .search-bar>i{
     font-size: 13px;
     
     margin: auto 5px;
     position: relative;
-    left: 25px;
+    left: 10px;
     bottom: 3px;
     
 
@@ -129,7 +135,7 @@ li{
 
 .icons i{
     position: relative;
-    left: 150px;
+    left: 135px;
     margin: 0 10px;
     bottom: 13px;
     font-size: 14px;
