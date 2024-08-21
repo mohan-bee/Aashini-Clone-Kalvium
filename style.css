@@ -93,6 +93,7 @@ li{
     font-weight: 400;
     font-style: normal;
     line-height: 28px;
+    border-radius: 5px;
     
 
 
@@ -120,7 +121,7 @@ li{
     font-size: 13px;
     font-style: normal;
     position: relative;
-    bottom: 20px;
+    bottom: 22px;
     margin-left: 10px;
 
 }
@@ -128,7 +129,7 @@ li{
 .fasion3>select{
     margin-right: 100px;
     position: relative;
-    bottom: 20px;
+    bottom: 22px;
     
 }
 
@@ -160,19 +161,24 @@ li{
 .search-bar > input{
     border: none;
     margin-left: 5px;
+    outline: none;
+    
+    padding: 10px;
+    transition: box-shadow 0.3s ease;
+    
 }
 
 .search-bar>i{
     font-size: 13px;
     margin: auto 5px;
     position: relative;
-    left: 25px;
+    left: 10px;
     bottom: 3px;
 }
 
 .icons i{
     position: relative;
-    left: 150px;
+    left: 135px;
     margin: 0 10px;
     bottom: 13px;
     font-size: 14px;    
@@ -196,6 +202,92 @@ li{
     display: none;
 
 }
+.designers{
+    display:block;
+
+    font-family: var(--font-raleway);
+}
+
+.designers1{
+    font-family: var(--font-raleway);
+}
+
+.designers >ul{
+    position: relative;
+    right: 200px;
+    display: flex;
+    flex-direction: column;  
+    margin-top: 20px;  
+}
+.designers>ul li{
+    font-size: 14px;
+    font-weight: 300px;
+
+}
+
+.designers1>ul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 333px;
+    left: 125px;
+    
+    
+}
+
+.designers1>ul li{
+    font-size: 14px;
+    font-weight: 300px;
+}
+
+.designers2>p{
+    position: relative;
+    left: 339px;
+    bottom: 360px;
+    font-size: 14px;
+    font-family: var(--font-raleway);
+    font-weight: 500px;
+}
+
+.designers2>ul{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 200px;
+    bottom: 352px;
+}
+
+.designers3>ul{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 200px;
+    bottom: 307px;
+}
+
+.designers3>p{
+    position: relative;
+    left: 338px;
+    bottom: 315px;
+}
+
+.designers3>ul>img{
+    position: relative;
+    left: 309px;
+    width: 191px;
+    bottom: 380px;
+    
+}
+
+.designers3>ul>p{
+    position: relative;
+    bottom: 369px;
+    left: 350px;
+    
+}
+
+
+
 
  
 .new-in > .shop-by{
