@@ -189,7 +189,7 @@ li{
     width: 100%;
 }
 /* Creating the Hover Effect */
-.new-in, .designers{
+.new-in, .designers, .women{
     background-color: #ffffff;
     font-family: var(--font-raleway);
     padding: 30px;
@@ -205,12 +205,95 @@ li{
 
 }
 .designers{
-    display: block;
+    /* display: block; */
 
     font-family: var(--font-raleway);
     height: 410px;
     
 }
+
+.women{
+    display: block;
+    font-family: var(--font-raleway);
+    height: 390px;
+}
+
+.women>p{
+    position: relative;
+    left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--font-raleway);
+    line-height: 25px;
+}
+
+.women>li{
+    position: relative;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--font-raleway);
+    left: 5px;
+    top: 13px;
+}
+
+.women>ul>li{
+   
+    position: relative;
+    left: 120px;
+    bottom: 287px;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+
+    
+    
+}
+
+.women>ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.women1>p{
+    position: relative;
+    left: 680px;
+    bottom: 590px;
+    font-size: 14px;
+}
+
+.women1>ul{
+    position: relative;
+    bottom: 585px;
+    left: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.women1>ul>li{
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.women1>ul>img{
+    width: 210px;
+    position: relative;
+    left: 300px;
+    bottom: 247px;
+}
+
+.women1>ul>p{
+    position: relative;
+    left: 360px;
+    bottom: 240px;
+    font-size: 14px;
+}
+
+
+
+
+
+
 
 .designers1{
     font-family: var(--font-raleway);
