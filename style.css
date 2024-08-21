@@ -186,7 +186,7 @@ li{
     width: 100%;
 }
 /* Creating the Hover Effect */
-.new-in, .designers{
+.new-in, .designers, .jewelry{
     background-color: #ffffff;
     font-family: var(--font-raleway);
     padding: 30px;
@@ -199,11 +199,15 @@ li{
     top: 90%;
     display: none;
 
+
 }
 .designers{
     height: 500px;
 }
-
+.designers1, .designers2{
+    
+    height: 100px;
+}
 .designers >ul, .designers1>ul{
     position: relative;
     right: 200px;
@@ -238,6 +242,10 @@ li{
     position: relative;
     left: 200px;
     bottom: 352px;
+    
+}
+.designers3 > ul{
+    height: 500px;
 }
 
 .designers3>ul{
@@ -267,8 +275,51 @@ li{
 
 
 
+.jewelry{
+    /* display: flex; */
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: var(--font-raleway);
+    
+}
+.jewelry > .shop-by > ul,.jewelry > .essential > ul,.jewelry > .lovers > ul {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+}
+.jewelry > .shop-by > ul > p,.jewelry > .essential > ul > p,.jewelry > .lovers > ul > p {
+    font-weight: 400;
+    width: 345px;
+}
+.essential, .lovers{    
+    margin-left: 250px;
+}
+.jewelry > .shop-by > ul li,.jewelry > .essential > ul li,.jewelry > .lovers > ul li {
+    margin: 0;
+    width: 345px;
 
- 
+    font-weight: 300;
+}
+
+.jewelry > .img, .jewelry > .img > img {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 42.5%;
+
+}
+.jewelry > .img > p{
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    margin-right: 80px;
+    margin-top: 10px;
+
+}
+
+
 .new-in > .shop-by{
     position: relative;
     bottom: 130px;
