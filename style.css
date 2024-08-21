@@ -16,20 +16,15 @@
     flex-shrink: 0; 
     width: 310px;
     height: 474.63px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .banner3 .no-space img {
     display: block;
     position: relative;
     width: 311.48px; 
-    height: 500px;
+    height: 498px;
     margin :0;
     padding: 0;
     
-}
-.image-banner3 {
-    margin-left: 0px;
-    margin-right: opx;
-  
 }
