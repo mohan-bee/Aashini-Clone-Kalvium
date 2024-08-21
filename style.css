@@ -39,6 +39,7 @@
     text-decoration: none;
     font-size: 16px;
 }
+
 .banner3 img {
     width: 10%;
 }
@@ -186,7 +187,7 @@ li{
     width: 100%;
 }
 /* Creating the Hover Effect */
-.new-in, .designers, .jewelry{
+.new-in, .designers{
     background-color: #ffffff;
     font-family: var(--font-raleway);
     padding: 30px;
@@ -198,15 +199,63 @@ li{
     align-items: center;
     top: 90%;
     display: none;
+    
 
+
+}
+
+
+.jewelry{
+    /* display: flex; */
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: var(--font-raleway);
+    
+}
+.jewelry > .shop-by > ul,.jewelry > .essential > ul,.jewelry > .lovers > ul {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+}
+.jewelry > .shop-by > ul > p,.jewelry > .essential > ul > p,.jewelry > .lovers > ul > p {
+    font-weight: 400;
+    width: 345px;
+}
+.essential, .lovers{    
+    margin-left: 250px;
+}
+.jewelry > .shop-by > ul li,.jewelry > .essential > ul li,.jewelry > .lovers > ul li {
+    margin: 0;
+    width: 345px;
+
+    font-weight: 300;
+}
+
+.jewelry > .img, .jewelry > .img > img {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 42.5%;
+
+}
+.jewelry > .img > p{
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    margin-right: 80px;
+    margin-top: 10px;
 
 }
 .designers{
-    height: 500px;
+    display:block;
+
+    font-family: var(--font-raleway);
 }
-.designers1, .designers2{
-    
-    height: 100px;
+
+.designers1{
+    font-family: var(--font-raleway);
 }
 .designers >ul, .designers1>ul{
     position: relative;
@@ -257,13 +306,15 @@ li{
     position: relative;
     left: 338px;
     bottom: 315px;
+    
 }
 
 .designers3>ul>img{
     position: relative;
     left: 309px;
-    width: 191px;
-    bottom: 380px;
+    width: 230px;
+    bottom: 370px;
+    
     
 }
 
@@ -271,53 +322,11 @@ li{
     position: relative;
     bottom: 369px;
     left: 350px;
-}
-
-
-
-.jewelry{
-    /* display: flex; */
-    justify-content: space-between;
-    font-size: 14px;
-    font-family: var(--font-raleway);
     
 }
-.jewelry > .shop-by > ul,.jewelry > .essential > ul,.jewelry > .lovers > ul {
-    font-size: 14px;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 50px;
-}
-.jewelry > .shop-by > ul > p,.jewelry > .essential > ul > p,.jewelry > .lovers > ul > p {
-    font-weight: 400;
-    width: 345px;
-}
-.essential, .lovers{    
-    margin-left: 250px;
-}
-.jewelry > .shop-by > ul li,.jewelry > .essential > ul li,.jewelry > .lovers > ul li {
-    margin: 0;
-    width: 345px;
 
-    font-weight: 300;
-}
 
-.jewelry > .img, .jewelry > .img > img {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    width: 42.5%;
 
-}
-.jewelry > .img > p{
-    font-size: 14px;
-    font-weight: 300;
-    display: block;
-    margin-right: 80px;
-    margin-top: 10px;
-
-}
 
 
 .new-in > .shop-by{
