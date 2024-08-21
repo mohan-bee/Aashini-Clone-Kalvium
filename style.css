@@ -9,15 +9,27 @@
 }
 .banner3 {
     display: flex;
-    flex-direction: row;
-    gap: 10px;
-    width: 310px;
-    height: 474.63px;
-    background-color: #f8f8f8;
+    align-items: center; 
 }
 
-.co-banner3 {
-    background: #dcdada;
-    width: 311.48px;
-    height: 471.58px; 
+.banner3 img {
+    flex-shrink: 0; 
+    width: 310px;
+    height: 474.63px;
+    margin-right: 20px;
+}
+
+.banner3 .no-space img {
+    display: block;
+    position: relative;
+    width: 311.48px; 
+    height: 500px;
+    margin :0;
+    padding: 0;
+    
+}
+.image-banner3 {
+    margin-left: 0px;
+    margin-right: opx;
+  
 }
