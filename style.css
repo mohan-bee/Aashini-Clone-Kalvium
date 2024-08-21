@@ -187,7 +187,7 @@ li{
     width: 100%;
 }
 /* Creating the Hover Effect */
-.new-in, .designers{
+.new-in, .designers, .jewelry{
     background-color: #ffffff;
     font-family: var(--font-raleway);
     padding: 30px;
@@ -200,10 +200,8 @@ li{
     top: 90%;
     display: none;
     
-
-
 }
-
+.designers
 
 .jewelry{
     /* display: flex; */
@@ -250,7 +248,7 @@ li{
 }
 .designers{
     display:block;
-
+    height: 500px;
     font-family: var(--font-raleway);
 }
 
