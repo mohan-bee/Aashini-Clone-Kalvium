@@ -8,6 +8,31 @@
     --font-roboto: Robot, arial, tahoma;
 }
 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-raleway);
+}
+
+.banner3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+.banner3 > .cta-banner {
+    width: 311.48px;
+    height: 471.58px;
+    font-size: 36px;
+    color: #333;
+    margin: 0;
+    background-color: red;
+}
+
 .SHOP HERE {
     display: inline-block;
     margin-top: 10px;
@@ -217,133 +242,109 @@ body {
 }
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 /* Css By Monish */
-ul{
-    display: flex;
-    justify-content: space-evenly;
-    width: 68%;
-    margin: 0 auto;
-    margin-top: 8px; 
-}
-
-li{
-    list-style: none;
-    margin: 0 0 5px 5px ;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 22px;
-    font-style: normal;
-    font-family: var(--font-raleway) ;
-}
-
-.fasion1>p{
-
+.desktop > .banner{
+    height: 28px;
     background-color: #000000;
     width: 100%;
-    height: 28px;
-    text-align: center;
-    color: var(--color-white);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 28px;
-    
-
-
-}
-.fasion2{
-    position: sticky;
-    top: 0;
-    background-color: #ffffff;
-    padding-bottom:10px;
-}
-
-
-.fasion3{
     display: flex;
     align-items: center;
-    width: 100%;
+    justify-content: center;
 }
-
-
-.fasion3>p{
-    
-    font-family: var(--font-roboto);
+.banner > p{
+    color: #ffffff;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 22px;
-    font-size: 13px;
-    font-style: normal;
-    position: relative;
-    bottom: 20px;
-    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
 
 }
-
-.fasion3>select{
-    margin-right: 100px;
-    position: relative;
-    bottom: 20px;
-    
-}
-
-.fasion3>img{
-    position: relative;
-    left: 25%;
-    width: 357px;
-}
-
-
-.fasion4{
-    line-height: 13px;
-    width: 1px;
-    font-size: small;
-}
-.search-bar{
-    margin-left: 476px;
+.desktop-navbar{
     display: flex;
-    height: 27px;
-    border: 1px solid #717171;
-    position: relative;
-    bottom: 10px;
-    width: 218px;
-    border-radius: 2px;
-    font-family: var(--font-roboto);
-    left: 22px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.navbar-top{
+    position: sticky;
+    top: 0;
+}
+.desktop { 
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    top: 0;
+
+}
+.banner1{
+    margin-top: 145px;
+}
+.desktop-navbar > .inr{
+    display: flex;
+    gap: 10px;
+}
+.navbar-right{
+display: flex;
+align-items: center;
+gap: 180px;
+}
+.navbar-right > .icons{
+
+    display: flex;
+    gap: 15px;
+}
+.navbar-right > .icons i{
+    font-size: 14px;
 }
 
-.search-bar > input{
+.navbar-right > img{
+    width: 405px;
+}
+
+.search-box{
+    border-radius:3px;
+    border: 1px solid rgba(131, 131, 131, 0.751);
+    width: 193px;
+    display: flex;
+    justify-content: space-between;
+    height: 27px;
+    padding: 0 5px;
+
+}
+.search-box > input{
+    width: 218px;
     border: none;
+    outline: none;
+    font-family: var(--font-roboto);
+    font-size: 13px;
+}
+.search-box > i{
+    display: block;
+    margin: auto 0;
     margin-left: 5px;
 }
+.navbar > ul{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 7px 14px 15px 14px ;
 
-.search-bar>i{
+}
+.navbar > ul li{
+    list-style: none;
+    font-family: var(--font-raleway);
+    font-weight: 500;
     font-size: 13px;
-    margin: auto 5px;
-    position: relative;
-    left: 25px;
-    bottom: 3px;
-}
 
-.icons i{
-    position: relative;
-    left: 150px;
-    margin: 0 10px;
-    bottom: 13px;
-    font-size: 14px;    
 }
-
 .banner1>img , .banner2>img{
     width: 100%;
 }
 /* Creating the Hover Effect */
-.new-in, .designers{
+.new-in, .designers, .jewelry{
     background-color: #ffffff;
     font-family: var(--font-raleway);
     padding: 30px;
@@ -355,10 +356,136 @@ li{
     align-items: center;
     top: 90%;
     display: none;
-
+    
+}
+.designers2{
+    height: 100px;
 }
 
- 
+.jewelry{
+    /* display: flex; */
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: var(--font-raleway);
+    
+}
+.jewelry > .shop-by > ul,.jewelry > .essential > ul,.jewelry > .lovers > ul {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+}
+.jewelry > .shop-by > ul > p,.jewelry > .essential > ul > p,.jewelry > .lovers > ul > p {
+    font-weight: 400;
+    width: 345px;
+}
+.essential, .lovers{    
+    margin-left: 250px;
+}
+.jewelry > .shop-by > ul li,.jewelry > .essential > ul li,.jewelry > .lovers > ul li {
+    margin: 0;
+    width: 345px;
+
+    font-weight: 300;
+}
+
+.jewelry > .img, .jewelry > .img > img {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 42.5%;
+
+}
+.jewelry > .img > p{
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    margin-right: 80px;
+    margin-top: 10px;
+
+}
+.designers{
+
+    height: 500px;
+    font-family: var(--font-raleway);
+}
+
+.designers1{
+    font-family: var(--font-raleway);
+}
+.designers >ul, .designers1>ul{
+    position: relative;
+    right: 200px;
+    display: flex;
+    flex-direction: column;  
+    margin-top: 20px;  
+}
+.designers>ul li, .designers1>ul li{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.designers1>ul{
+    bottom: 333px;
+    left: 125px;
+    margin-top: 0;
+    right: 0;    
+}
+
+
+.designers2>p{
+    position: relative;
+    left: 339px;
+    bottom: 360px;
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+.designers2>ul, .designers3>ul{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 200px;
+    bottom: 352px;
+    
+}
+.designers3 > ul{
+    height: 500px;
+}
+
+.designers3>ul{
+    left: 200px;
+    bottom: 307px;
+}
+
+.designers3>p{
+    position: relative;
+    left: 338px;
+    bottom: 315px;
+    
+}
+
+.designers3>ul>img{
+    position: relative;
+    left: 309px;
+    width: 230px;
+    bottom: 370px;
+    
+    
+}
+
+.designers3>ul>p{
+    position: relative;
+    bottom: 369px;
+    left: 350px;
+    
+}
+
+
+
+
+
 .new-in > .shop-by{
     position: relative;
     bottom: 130px;
@@ -375,6 +502,16 @@ li{
 .navbar{
     cursor: pointer;
 }
+.navbar  > ul{
+    display: flex;
+}
+.navbar, .fasion3{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+
 
 .new-in > ul li, .editor-img > div > p{
     font-family: var(--font-raleway);
@@ -444,3 +581,75 @@ li{
 
 
 
+
+
+
+
+/* Responsive Section */
+
+@media only screen and  (max-width:400px) {
+
+    .fasion1 > p{
+        font-size: 10px;
+        
+
+    }
+    .fasion1, .fasion2, .banner1, .banner2, .banner6, .banner7{
+
+        width: 103%;
+    }
+    .navbar, .fasion3{
+        display: none;
+        width: 100%;
+    }
+    div.fasion3{
+        display: none;
+
+    }
+    .mobile{
+        margin: 0;
+    }
+    .mobile-navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid black;
+        /* box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.384); */
+
+    }
+    .mobile-navbar > .sign-in, .mobile-navbar > .whishlist, .mobile-navbar > .inr, .mobile-navbar > .search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        padding: 10px 12px;
+        text-align: center;
+        height: 100%;
+        border-left: 1px solid black;
+    }
+    .mobile-mainbar{
+        display: flex;
+        background-color: #fff;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+        padding-top: 10px;
+
+    }
+    .mobile-mainbar > img{
+        width: 185px;
+    }
+    .mobile-mainbar i{
+        font-size: 16px;
+    }
+    .mobile{
+        display: block;
+        width: 100%;
+    }
+    .desktop{
+        display: none;
+    }
+    
+
+}
