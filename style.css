@@ -229,6 +229,21 @@ body {
     font-weight: normal;
     font-size: small;
 }
+.footer-content{
+    font-size: 13px;
+    margin: 10px;
+}
+
+.footer-content h2, .footer-content h1{
+    margin: 10px 0;
+    color: #525252;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+.footer-content p{
+    margin: 10px 0;
+}
 
 .Link{
     color: black;
@@ -306,6 +321,79 @@ gap: 180px;
     width: 405px;
 }
 
+/* Footer */
+
+.footer-main{
+    display: flex;
+    width: 80%;
+    gap: 150px;
+    margin: 0 auto;
+    padding: 40px 0 26px 160px;
+
+
+}
+.footer{
+    color: #ffffff;
+    background-color: #222;
+}
+.footer-main h1, .footer-main li{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--font-roboto);
+
+}
+.footer-main h1{
+    margin: 10px 0;
+}
+.stay{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    padding-bottom: 10px;
+    margin: 30px 0;
+    border-bottom: 5px solid #000;
+}
+.stay > input{
+    width: 584px;
+    text-align: center;
+    border:none ;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    font-size: 14px;
+}
+.stay > input:focus{
+
+    outline: none;
+}
+.stay > button{
+    padding: 9px 28px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 13px;
+}
+.footer-main li{
+    font-size: 13px;
+    list-style: none;
+    margin: 5px 0;
+}
+.footer-bottom{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222222a6;
+    padding: 15px 260px 15px 250px;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+.footer-bottom > .icons{
+    display: flex;
+    gap: 25px;
+}
 .search-box{
     border-radius:3px;
     border: 1px solid rgba(131, 131, 131, 0.751);
